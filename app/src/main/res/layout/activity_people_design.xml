@@ -1,0 +1,12 @@
+<!-- people_design_activity.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Add RecyclerView to display designs -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewDesigns"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

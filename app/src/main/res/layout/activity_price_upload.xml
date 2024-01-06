@@ -1,0 +1,29 @@
+<!-- price_upload_activity.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Add necessary UI components for gold and silver price input -->
+    <!-- For example, EditText for entering gold and silver prices -->
+
+    <EditText
+        android:id="@+id/editTextGoldPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Gold Price" />
+
+    <EditText
+        android:id="@+id/editTextSilverPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextGoldPrice"
+        android:hint="Enter Silver Price" />
+
+    <Button
+        android:id="@+id/btnUploadPrices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSilverPrice"
+        android:text="Upload Prices" />
+
+</RelativeLayout>

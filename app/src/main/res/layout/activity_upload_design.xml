@@ -1,0 +1,46 @@
+<!-- upload_design_activity.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Add necessary UI components for image upload (e.g., EditText for name and contact, Button for gallery) -->
+
+    <Button
+        android:id="@+id/btnChooseImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Image" />
+
+    <ImageView
+        android:id="@+id/imageViewDesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnChooseImage"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewDesign"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/editTextContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="16dp"
+        android:inputType="phone"
+        android:hint="Enter Contact Number" />
+
+    <Button
+        android:id="@+id/btnUploadDesign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextContact"
+        android:layout_marginTop="16dp"
+        android:text="Upload Design" />
+
+</RelativeLayout>

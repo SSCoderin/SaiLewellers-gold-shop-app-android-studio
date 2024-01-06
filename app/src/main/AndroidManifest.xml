@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/splash"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/splash"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SaiJewellers"
+        tools:targetApi="31">
+        <activity
+            android:name="com.owner.RingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.RecentlyAdd.NewUpload"
+            android:exported="false" />
+        <activity
+            android:name="com.Users.SearchDesign"
+            android:exported="false" />
+        <activity
+            android:name="com.UploadDesign.PeopleDesignActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.UploadDesign.UploadDesignActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.Price.PriceUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.Users.OwnDesign"
+            android:exported="false" />
+        <activity
+            android:name="com.Users.Contact"
+            android:exported="false" />
+        <activity
+            android:name="com.owner.UploadActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.owner.owner"
+            android:exported="false" />
+        <activity
+            android:name="com.jewellery.GoldMani"
+            android:exported="false" />
+        <activity
+            android:name="com.jewellery.ToeRing"
+            android:exported="false" />
+        <activity
+            android:name="com.jewellery.NeckChain"
+            android:exported="false" />
+        <activity
+            android:name="com.jewellery.WristChain"
+            android:exported="false" />
+        <activity
+            android:name="com.jewellery.kada"
+            android:exported="false" />
+        <activity
+            android:name="com.jewellery.Bangles"
+            android:exported="false" />
+        <activity
+            android:name="com.jewellery.NoseRing"
+            android:exported="false" />
+        <activity
+            android:name="com.jewellery.Necklace"
+            android:exported="false" />
+        <activity
+            android:name="com.jewellery.Anklet"
+            android:exported="false" />
+        <activity
+            android:name="com.jewellery.EarRing"
+            android:exported="false" />
+        <activity
+            android:name="com.jewellery.Mangalsutra"
+            android:exported="false" />
+        <activity
+            android:name="com.jewellery.Ring"
+            android:exported="false" />
+        <activity
+            android:name="com.SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.SaiJewellers.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.SignUp"
+            android:exported="false" />
+        <activity
+            android:name="com.SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.SaiJewellers.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

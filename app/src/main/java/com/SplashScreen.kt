@@ -12,7 +12,7 @@ import com.sj.saijewellers.MainActivity
 
 class SplashScreen : AppCompatActivity() {
 
-    private val SPLASH_TIME_OUT: Long = 2000 // 3 seconds
+    private val SPLASH_TIME_OUT: Long = 1000 // 3 seconds
     private lateinit var mAuth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {

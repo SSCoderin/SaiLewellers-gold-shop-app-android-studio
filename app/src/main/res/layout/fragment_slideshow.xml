@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FEFEFE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="60dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FEFEFE">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/white"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:gravity="center"
+                        android:text="Gold Jewelry: Rings, Necklaces, Bracelets, Earrings, Anklets, etc. "
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="@+id/textView49"
+                        app:layout_constraintStart_toStartOf="@+id/textView49"
+                        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:gravity="center"
+                        android:text="Customized Gold Jewelry: Personalized designs based on customer preferences. "
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="@+id/textView25"
+                        app:layout_constraintHorizontal_bias="0.32"
+                        app:layout_constraintStart_toStartOf="@+id/textView25"
+                        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+                    <TextView
+                        android:id="@+id/textView62"
+                        android:layout_width="350dp"
+                        android:layout_height="28dp"
+                        android:gravity="center"
+                        android:text="Open: 09:00AM   -    Close:  07:00PM"
+                        android:textColor="#000000"
+                        android:textSize="19sp"
+                        app:layout_constraintEnd_toEndOf="@+id/textView60"
+                        app:layout_constraintHorizontal_bias="0.465"
+                        app:layout_constraintStart_toStartOf="@+id/textView60"
+                        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+                    <TextView
+                        android:id="@+id/textView59"
+                        android:layout_width="256dp"
+                        android:layout_height="36dp"
+                        android:gravity="center"
+                        android:text="Operating  Hours"
+                        android:textColor="#000000"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.496"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="287dp"
+                        android:layout_height="86dp"
+                        android:gravity="center"
+                        android:text="SAI JEWELLERS"
+                        android:textColor="#000000"
+                        android:textSize="34sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/owner" />
+
+                    <TextView
+                        android:id="@+id/textView47"
+                        android:layout_width="311dp"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="IN GOLD WE TRUST"
+                        android:textColor="#000000"
+                        android:textSize="22sp"
+                        app:layout_constraintEnd_toEndOf="@+id/textView46"
+                        app:layout_constraintHorizontal_bias="0.54"
+                        app:layout_constraintStart_toStartOf="@+id/textView46"
+                        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+                    <TextView
+                        android:id="@+id/textView48"
+                        android:layout_width="0dp"
+                        android:layout_height="163dp"
+                        android:gravity="center"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:text="Welcome to SHRIKRUPA Medical Store, where your health and well-being take center stage. With a commitment to excellence, we strive to provide you with a wide range of high-quality medical products and personalized care to support your journey towards a healthier life."
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+                    <TextView
+                        android:id="@+id/textView49"
+                        android:layout_width="256dp"
+                        android:layout_height="36dp"
+                        android:layout_marginTop="12dp"
+                        android:gravity="center"
+                        android:text="Products and Services"
+                        android:textColor="#000000"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.496"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:gravity="center"
+                        android:text="All gold products are made from high-quality, hallmarked gold. "
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="@+id/textView23"
+                        app:layout_constraintHorizontal_bias="0.333"
+                        app:layout_constraintStart_toStartOf="@+id/textView23"
+                        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+                    <TextView
+                        android:id="@+id/textView60"
+                        android:layout_width="167dp"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:text="Monday  -  Sunday"
+                        android:textColor="#000000"
+                        android:textSize="19sp"
+                        app:layout_constraintEnd_toEndOf="@+id/textView59"
+                        app:layout_constraintHorizontal_bias="0.505"
+                        app:layout_constraintStart_toStartOf="@+id/textView59"
+                        app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+                    <ImageView
+                        android:id="@+id/owner"
+                        android:layout_width="126dp"
+                        android:layout_height="123dp"
+                        android:layout_marginTop="16dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:onClick="showPasswordDialog"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/splash"
+                        tools:ignore="UsingOnClickInXml" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="479dp"
+                android:background="#FEFEFE">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/white"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView57"
+                        android:layout_width="407dp"
+                        android:layout_height="40dp"
+                        android:gravity="center|center_vertical"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="@+id/textView54"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/textView54"
+                        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+                    <TextView
+                        android:id="@+id/textView54"
+                        android:layout_width="407dp"
+                        android:layout_height="40dp"
+                        android:gravity="center|center_vertical"
+                        android:text="📞 Call Us: 9850088212, 7219726868"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="@+id/textView53"
+                        app:layout_constraintHorizontal_bias="0.496"
+                        app:layout_constraintStart_toStartOf="@+id/textView53"
+                        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="155dp"
+                        android:layout_height="34dp"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="Contact us"
+                        android:textColor="#000000"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView53"
+                        android:layout_width="407dp"
+                        android:layout_height="40dp"
+                        android:gravity="center|center_vertical"
+                        android:text="📍 Visit Us: PETHWADAJ, Kandhar, Nanded"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="@+id/textView51"
+                        app:layout_constraintHorizontal_bias="0.496"
+                        app:layout_constraintStart_toStartOf="@+id/textView51"
+                        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "233898896658",
+    "project_id": "sai-jeweller",
+    "storage_bucket": "sai-jeweller.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233898896658:android:e5557bdb70e1ddea3217cb",
+        "android_client_info": {
+          "package_name": "com.sj.saijewellers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbgGspAj4pFvAPn1kbDumt_VT0dSQBHv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
